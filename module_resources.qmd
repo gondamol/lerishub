@@ -1,0 +1,184 @@
+---
+title: "R for Research"
+subtitle: "module 1: Introduction"
+
+
+author: "Nichodemus Amollo<br>LERIS HUB<br>Jan 14, 2024"
+format: 
+  revealjs:
+    footer: "[github.com/gondamol/lerishub](https://github.com/gondamol/lerishub)&nbsp;&nbsp;&nbsp;"
+    theme: [moon, custom.scss]
+    preview-links: auto
+    chalkboard: 
+      boardmarker-width: 5
+from: markdown+emoji
+execute:
+  echo: true
+editor: visual
+---
+
+## Housekeeping
+
+<br/>
+
+::: incremental
+-   Intro :wave:
+-   Workshop materials :arrow_down:
+-   By the end of today :heavy_check_mark:
+-   Today's plan :clipboard:
+-   Break :clock9:
+:::
+
+------------------------------------------------------------------------
+
+## Today's plan
+
+<br/>
+
+::: incremental
+1.  Module Overview :dart:
+
+2.  What is R? How can it ease the burden of repeated reporting?
+
+3.  Demo
+
+4.  Using R effectively
+:::
+
+# Module Overview
+
+::: incremental
+1.  **Introduction to R and RStudio**
+2.  **Data Input and Output**
+3.  **Programming Fundamentals**
+4.  **Exploratory Data Analysis (Descriptive Statistics and Data Visualization)**
+:::
+
+------------------------------------------------------------------------
+
+## Introduction to R and RStudio
+
+<br/>
+
+::: incremental
+-   What is R
+
+-   Benefits of R
+
+-   Installation and set-up of R and RStudio
+
+-   Introduction to the R console and workspace
+
+-   Basic data types and structures (vectors, matrices, lists, data frames)
+
+-   Object manipulation and operators
+:::
+
+<br/>
+
+# What is R?
+
+------------------------------------------------------------------------
+
+## What is R?
+
+<br> <br> <br>
+
+::: {style="text-align: center"}
+R is an open-source ([**free**]{style="color:#cc0000"}!) scripting language for working with data
+:::
+
+------------------------------------------------------------------------
+
+## The benefits of R
+
+<br>
+
+Accessibility for Beginners
+
+. . .
+
+The magic of R is that it's [**reproducible**]{style="color:#cc0000"} (by someone else *or* by yourself in six months)
+
+. . .
+
+[**Data-Centric Design**]{style="color:#ef018a"}
+
+. . .
+
+[**Open-Source Magic**]{style="color:#ef018a"}
+
+. . .
+
+[**Thriving Community**]{style="color:#ef018a"}
+
+------------------------------------------------------------------------
+
+## Getting R
+
+<br/> <br/> <br/>
+
+You need the R [language](https://cloud.r-project.org/) <br/> <br/>
+
+. . .
+
+And also the [software](https://www.rstudio.com/products/rstudio/download/#download)
+
+------------------------------------------------------------------------
+
+## Navigating RStudio
+
+## **Textbook**
+
+We will use two main textbooks for the course both of which are freely available online.
+
+1.  [Modern Data Science with R](https://mdsr-book.github.io/mdsr2e) by Benjamin S. Baumer, Daniel T. Kaplan, and Nicholas J. Horton.
+
+2.  [R for Data Science](https://r4ds.hadley.nz/) by Hadley Wickham, Mine Cetinkaya-Rundel, and Garrett Grolemund
+
+## Other Resources
+
+1.  [INED Data Analysis Workshop](https://github.com/IPUMS-Global-Health/ined-pma-2022?tab=readme-ov-file)
+2.  [Introduction to modern statistics](https://openintro-ims.netlify.app/)
+3.  [Data Science in a Box](https://datasciencebox.org/)
+4.  [STATS 545](https://stat545.com/)
+5.  [Happy Git and GitHub for the useR](https://happygitwithr.com/)
+6.  [RMarkdown for Scientists](https://rmd4sci.njtierney.com/)
+7.  [*Learning Statistics with R*:](https://learningstatisticswithr.com/book/) introductory statistics class
+8.  [Introduction to R for Health Data Science](https://bookdown.org/m_p_sperrin/introduction_to_r/)
+9.  [R without statistics](https://book.rwithoutstatistics.com/)
+10. [Text Mining with R](https://www.tidytextmining.com/)
+
+-   [[**The Advantages of RStudio**]{.underline}](https://www.theanalysisfactor.com/the-advantages-of-rstudio/ "This article from The Analysis Factor describes the advantages of RStudio."): This web page explains some of the reasons why RStudio is many analysts’ preferred choice for interfacing with R. You’ll learn about the advantages of using RStudio for data analysis, from ease of use to accessibility of graphics and more. 
+
+<!-- -->
+
+-   [[**Data analysis and R programming**]{.underline}](https://lgatto.github.io/2017_11_09_Rcourse_Jena/before-we-start.html "This link takes you to an introductory section of an online course for data analysis and R programming."): This online introduction to data analysis and R programming is a good starting point for R and RStudio users. It also includes a list of detailed explanations about the advantages of using R and RStudio. You’ll also find a helpful guide for getting set up with RStudio
+
+1.  
+
+    ## **Programming Tools**
+
+[**R language**](https://cloud.r-project.org/) **and [RStudio](https://posit.co/download/rstudio-desktop/#download)**
+
+-   We will use the R language which is a **popular programming language used by statisticians and data scientists**.
+
+-   We will use RStudio interface while using the R language.
+
+**Git and GitHub**
+
+-   We will use GitHub for version control with git.
+
+-   We will soon learn what version control means.
+
+Rmarkdown/Quarto
+
+We can use RMarkdown for all kinds of everyday tasks like:
+
+-   Writing shareable R code with full text comments
+
+-   Automating the production of fully-formatted PDFs, Word, and Excel files
+
+-   Building interactive Shiny applications for data exploration
+
+-   Even [running Stata code](https://bookdown.org/yihui/rmarkdown-cookbook/eng-stata.html) from a local installation of `StataSE-64.exe`

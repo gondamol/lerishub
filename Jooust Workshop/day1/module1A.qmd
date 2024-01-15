@@ -1,0 +1,274 @@
+---
+title: "R for Research"
+author: "Nichodemus Amollo<br>LERIS HUB<br>Jan 14, 2024"
+format: 
+  revealjs:
+    footer: "[github.com/gondamol/lerishub](https://github.com/gondamol/lerishub)&nbsp;&nbsp;&nbsp;"
+    theme: [moon, custom.scss]
+    preview-links: auto
+    chalkboard: 
+      boardmarker-width: 5
+from: markdown+emoji
+execute:
+  echo: true
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## Housekeeping
+
+<br/>
+
+::: incremental
+-   Intro :wave:
+-   Workshop materials :arrow_down:
+-   By the end of today :heavy_check_mark:
+-   Today's plan :clipboard:
+-   Break :clock9:
+:::
+
+------------------------------------------------------------------------
+
+## Today's plan
+
+<br/>
+
+::: incremental
+1.  Module Overview :dart:
+
+2.  What is R? How can it ease the burden of repeated reporting?
+
+3.  Demo
+
+4.  Using R effectively
+:::
+
+# Module Overview
+
+::: incremental
+1.  **Introduction to R and RStudio**
+2.  **Data Input and Output**
+3.  **Programming Fundamentals**
+4.  **Exploratory Data Analysis (Descriptive Statistics and Data Visualization)**
+:::
+
+------------------------------------------------------------------------
+
+## Introduction to R and RStudio
+
+<br/>
+
+::: incremental
+-   What is R
+
+-   Benefits of R
+
+-   Installation and set-up of R and RStudio
+
+-   Navigating R studio
+
+-   Basic data types and structures (vectors, matrices, lists, data frames)
+
+-   Object manipulation and operators
+:::
+
+<br/>
+
+# What is R?
+
+------------------------------------------------------------------------
+
+## What is R?
+
+<br> <br> <br>
+
+::: {style="text-align: center"}
+R is an open-source ([**free**]{style="color:#ef018a"}!) scripting language for working with data
+:::
+
+------------------------------------------------------------------------
+
+## The benefits of R
+
+<br>
+
+
+[**Accessibility for Beginners**]{style="color:#ef018a"}
+
+. . .
+
+The magic of R is that it's [**reproducible**]{style="color:#ef018a"} (by someone else *or* by yourself in six months)
+
+. . .
+
+[**Data-Centric Design**]{style="color:#ef018a"}
+
+. . .
+
+[**Open-Source Magic**]{style="color:#ef018a"}
+
+. . .
+
+[**Thriving Community**]{style="color:#ef018a"}
+
+
+---
+
+## Specific Situations for R Uses
+
+<br>
+
+
+[**Reproducing Your Analysis**]{style="color:#ef018a"}:  
+Store, reproduce and share every step of your analysis.
+
+. . .
+
+
+[**Processing Lots of Data**]{style="color:#ef018a"}: 
+R can handle large amounts of data much more quickly and efficiently.
+
+. . .
+
+[**Creating Data Visualizations: **]{style="color:#ef018a"}
+
+. . .
+
+
+
+## Getting R
+
+<br/> <br/> <br/>
+
+You need the R [language](https://cloud.r-project.org/) <br/> <br/>
+
+. . .
+
+And also the [software](https://www.rstudio.com/products/rstudio/download/#download)
+
+------------------------------------------------------------------------
+
+## Navigating RStudio
+
+::: {.absolute top="10%" left="0" width="1031" height="529"}
+::: {style="text-align: center"}
+![](RStudio1.png)
+:::
+:::
+
+::: {.absolute top="66%" left="55%"}
+::: {style="color: #ef018a"}
+project files are here
+:::
+:::
+
+. . .
+
+::: {.absolute top="28%" left="70%"}
+::: {style="color: #ef018a"}
+imported data shows up here
+:::
+:::
+
+. . .
+
+::: {.absolute top="50%" left="10%"}
+::: {style="color: #ef018a"}
+code *can* go here
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Navigating RStudio
+
+::: {.absolute top="10%" left="0" width="1031" height="529"}
+::: {style="text-align: center"}
+![](RStudio2.png)
+:::
+:::
+
+::: {.absolute top="66%" left="55%"}
+::: {style="color: #ef018a"}
+project files are here
+:::
+:::
+
+::: {.absolute top="28%" left="70%"}
+::: {style="color: #ef018a"}
+imported data shows up here
+:::
+:::
+
+::: {.absolute top="35%" left="25%"}
+::: {style="color: #ef018a"}
+code can also<br>go here
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Using R
+
+::: columns
+::: {.column width="50%"}
+<br> <br> You use R via *packages*
+:::
+
+::: fragment
+<br/> ...which contain *functions*
+:::
+
+::: fragment
+<br> ...which are just *verbs*
+:::
+:::
+
+::: {.column width="50%"}
+::: fragment
+![](tidyverse.png){.absolute top="70" left="530" height="574" width="499"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+## R Markdown and package resources
+
+<br>
+
+**R Markdown**
+
+the official [R Markdown website](https://rmarkdown.rstudio.com/lesson-1.html)
+
+[R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
+
+<br>
+
+**internal packages**
+
+a comprehensive [theoretical explainer](https://emilyriederer.netlify.app/post/team-of-packages/)
+
+a [talk I gave](https://meghan.rbind.io/talk/boston-user/) earlier this year on the topic
+
+# Learn more about R
+
+## Resources
+
+[R for Data Science](https://r4ds.had.co.nz/): the ultimate guide
+
+<br>
+
+[R for Excel users](https://rstudio-conf-2020.github.io/r-for-excel/): a very useful workshop
+
+<br>
+
+[STAT 545](https://stat545.com/): an online book on reproducible data analysis in R
+
+<br>
+
+the [RStudio Education](https://education.rstudio.com/) site
+
+<br>
+
+the [Learn `tidyverse`](https://www.tidyverse.org/learn/) site
